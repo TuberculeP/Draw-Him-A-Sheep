@@ -53,7 +53,7 @@ document.getElementById("predictButton").addEventListener("click", async () => {
 
   // Load the ONNX model and make a prediction
   try {
-    const modelUrl = "/dl-model/model.onnx"; // Path to your ONNX model
+    const modelUrl = "./dl-model/model.onnx"; // Path to your ONNX model
     console.log(await fetch(modelUrl))
     const session = await ort.InferenceSession.create(modelUrl);
 
@@ -142,7 +142,7 @@ const updateAllMaterials = () =>
 scene.environmentIntensity = 1
 
 // HDR (RGBE) equirectangular
-rgbeLoader.load('/environmentMaps/sky.hdr', (environmentMap) =>
+rgbeLoader.load('./environmentMaps/sky.hdr', (environmentMap) =>
 {
     environmentMap.mapping = THREE.EquirectangularReflectionMapping
 
@@ -185,7 +185,7 @@ directionalLight.target.updateWorldMatrix()
 let petitPrince 
 
 gltfLoader.load(
-    '/models/le_petit_prince/scene.gltf',
+    './models/le_petit_prince/scene.gltf',
     (gltf) =>
     {
         petitPrince = gltf.scene;
