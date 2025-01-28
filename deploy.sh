@@ -13,6 +13,6 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push --force git@github.com:TuberculeP/ConvertisseurRigolo.git main:gh-pages
+git push --force git@github.com:TuberculeP/Draw-Him-A-Sheep.git main:gh-pages
 
 cd -
