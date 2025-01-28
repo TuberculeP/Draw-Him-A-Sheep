@@ -1,0 +1,11 @@
+Model Information:
+* title:	Le Petit Prince
+* source:	https://sketchfab.com/3d-models/le-petit-prince-7b6825d2cbd64677b03ec9a89e40dc9f
+* author:	Shapelab (https://sketchfab.com/Shapelab)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Le Petit Prince" (https://sketchfab.com/3d-models/le-petit-prince-7b6825d2cbd64677b03ec9a89e40dc9f) by Shapelab (https://sketchfab.com/Shapelab) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
