@@ -1,6 +1,7 @@
 import restart from 'vite-plugin-restart'
 
 export default {
+    base: './', // Set the base path to './' for relative URLs
     assetsInclude: ['**/*.onnx'], // Permet de gérer les fichiers WASM
     root: 'src/', // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
