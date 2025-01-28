@@ -1,0 +1,1 @@
+# Le html se lance avec Vite, le fichier pour le modèle est dans static/dl-model

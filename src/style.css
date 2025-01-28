@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    outline: none;
+}
+
+.overlay {
+    position: fixed;
+    z-index: 1;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    canvas {
+        margin: 20px;
+        border: 2px solid white;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    button {
+        padding: 10px 15px;
+        font-weight: bold;
+        font-size: 28px;
+        background-color: black;
+        border: 2px solid white;
+    }
+    }
+}
